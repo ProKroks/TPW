@@ -1,0 +1,39 @@
+C:\Users\dzien\OneDrive\Pulpit\Zajecia\Programowanie współbieżne\TPW\tpw2\ViewModel\bin\Debug\net8.0\ViewModel.deps.json
+C:\Users\dzien\OneDrive\Pulpit\Zajecia\Programowanie współbieżne\TPW\tpw2\ViewModel\bin\Debug\net8.0\ViewModel.dll
+C:\Users\dzien\OneDrive\Pulpit\Zajecia\Programowanie współbieżne\TPW\tpw2\ViewModel\bin\Debug\net8.0\ViewModel.pdb
+C:\Users\dzien\OneDrive\Pulpit\Zajecia\Programowanie współbieżne\TPW\tpw2\ViewModel\bin\Debug\net8.0\Data.dll
+C:\Users\dzien\OneDrive\Pulpit\Zajecia\Programowanie współbieżne\TPW\tpw2\ViewModel\bin\Debug\net8.0\Logic.dll
+C:\Users\dzien\OneDrive\Pulpit\Zajecia\Programowanie współbieżne\TPW\tpw2\ViewModel\bin\Debug\net8.0\Model.dll
+C:\Users\dzien\OneDrive\Pulpit\Zajecia\Programowanie współbieżne\TPW\tpw2\ViewModel\bin\Debug\net8.0\Model.pdb
+C:\Users\dzien\OneDrive\Pulpit\Zajecia\Programowanie współbieżne\TPW\tpw2\ViewModel\bin\Debug\net8.0\Data.pdb
+C:\Users\dzien\OneDrive\Pulpit\Zajecia\Programowanie współbieżne\TPW\tpw2\ViewModel\bin\Debug\net8.0\Logic.pdb
+C:\Users\dzien\OneDrive\Pulpit\Zajecia\Programowanie współbieżne\TPW\tpw2\ViewModel\obj\Debug\net8.0\ViewModel.csproj.AssemblyReference.cache
+C:\Users\dzien\OneDrive\Pulpit\Zajecia\Programowanie współbieżne\TPW\tpw2\ViewModel\obj\Debug\net8.0\ViewModel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dzien\OneDrive\Pulpit\Zajecia\Programowanie współbieżne\TPW\tpw2\ViewModel\obj\Debug\net8.0\ViewModel.AssemblyInfoInputs.cache
+C:\Users\dzien\OneDrive\Pulpit\Zajecia\Programowanie współbieżne\TPW\tpw2\ViewModel\obj\Debug\net8.0\ViewModel.AssemblyInfo.cs
+C:\Users\dzien\OneDrive\Pulpit\Zajecia\Programowanie współbieżne\TPW\tpw2\ViewModel\obj\Debug\net8.0\ViewModel.csproj.CoreCompileInputs.cache
+C:\Users\dzien\OneDrive\Pulpit\Zajecia\Programowanie współbieżne\TPW\tpw2\ViewModel\obj\Debug\net8.0\ViewModel.sourcelink.json
+C:\Users\dzien\OneDrive\Pulpit\Zajecia\Programowanie współbieżne\TPW\tpw2\ViewModel\obj\Debug\net8.0\ViewModel.csproj.Up2Date
+C:\Users\dzien\OneDrive\Pulpit\Zajecia\Programowanie współbieżne\TPW\tpw2\ViewModel\obj\Debug\net8.0\ViewModel.dll
+C:\Users\dzien\OneDrive\Pulpit\Zajecia\Programowanie współbieżne\TPW\tpw2\ViewModel\obj\Debug\net8.0\refint\ViewModel.dll
+C:\Users\dzien\OneDrive\Pulpit\Zajecia\Programowanie współbieżne\TPW\tpw2\ViewModel\obj\Debug\net8.0\ViewModel.pdb
+C:\Users\dzien\OneDrive\Pulpit\Zajecia\Programowanie współbieżne\TPW\tpw2\ViewModel\obj\Debug\net8.0\ref\ViewModel.dll
+C:\Users\Barto\Downloads\tpw2\ViewModel\bin\Debug\net8.0\ViewModel.deps.json
+C:\Users\Barto\Downloads\tpw2\ViewModel\bin\Debug\net8.0\ViewModel.dll
+C:\Users\Barto\Downloads\tpw2\ViewModel\bin\Debug\net8.0\ViewModel.pdb
+C:\Users\Barto\Downloads\tpw2\ViewModel\bin\Debug\net8.0\Data.dll
+C:\Users\Barto\Downloads\tpw2\ViewModel\bin\Debug\net8.0\Logic.dll
+C:\Users\Barto\Downloads\tpw2\ViewModel\bin\Debug\net8.0\Model.dll
+C:\Users\Barto\Downloads\tpw2\ViewModel\bin\Debug\net8.0\Model.pdb
+C:\Users\Barto\Downloads\tpw2\ViewModel\bin\Debug\net8.0\Data.pdb
+C:\Users\Barto\Downloads\tpw2\ViewModel\bin\Debug\net8.0\Logic.pdb
+C:\Users\Barto\Downloads\tpw2\ViewModel\obj\Debug\net8.0\ViewModel.csproj.AssemblyReference.cache
+C:\Users\Barto\Downloads\tpw2\ViewModel\obj\Debug\net8.0\ViewModel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Barto\Downloads\tpw2\ViewModel\obj\Debug\net8.0\ViewModel.AssemblyInfoInputs.cache
+C:\Users\Barto\Downloads\tpw2\ViewModel\obj\Debug\net8.0\ViewModel.AssemblyInfo.cs
+C:\Users\Barto\Downloads\tpw2\ViewModel\obj\Debug\net8.0\ViewModel.csproj.CoreCompileInputs.cache
+C:\Users\Barto\Downloads\tpw2\ViewModel\obj\Debug\net8.0\ViewModel.csproj.Up2Date
+C:\Users\Barto\Downloads\tpw2\ViewModel\obj\Debug\net8.0\ViewModel.dll
+C:\Users\Barto\Downloads\tpw2\ViewModel\obj\Debug\net8.0\refint\ViewModel.dll
+C:\Users\Barto\Downloads\tpw2\ViewModel\obj\Debug\net8.0\ViewModel.pdb
+C:\Users\Barto\Downloads\tpw2\ViewModel\obj\Debug\net8.0\ref\ViewModel.dll

@@ -1,0 +1,61 @@
+C:\Users\dzien\OneDrive\Pulpit\Zajecia\Programowanie współbieżne\TPW\tpw2\View\bin\Debug\net8.0-windows\View.exe
+C:\Users\dzien\OneDrive\Pulpit\Zajecia\Programowanie współbieżne\TPW\tpw2\View\bin\Debug\net8.0-windows\View.deps.json
+C:\Users\dzien\OneDrive\Pulpit\Zajecia\Programowanie współbieżne\TPW\tpw2\View\bin\Debug\net8.0-windows\View.runtimeconfig.json
+C:\Users\dzien\OneDrive\Pulpit\Zajecia\Programowanie współbieżne\TPW\tpw2\View\bin\Debug\net8.0-windows\View.dll
+C:\Users\dzien\OneDrive\Pulpit\Zajecia\Programowanie współbieżne\TPW\tpw2\View\bin\Debug\net8.0-windows\View.pdb
+C:\Users\dzien\OneDrive\Pulpit\Zajecia\Programowanie współbieżne\TPW\tpw2\View\bin\Debug\net8.0-windows\Data.dll
+C:\Users\dzien\OneDrive\Pulpit\Zajecia\Programowanie współbieżne\TPW\tpw2\View\bin\Debug\net8.0-windows\Logic.dll
+C:\Users\dzien\OneDrive\Pulpit\Zajecia\Programowanie współbieżne\TPW\tpw2\View\bin\Debug\net8.0-windows\Model.dll
+C:\Users\dzien\OneDrive\Pulpit\Zajecia\Programowanie współbieżne\TPW\tpw2\View\bin\Debug\net8.0-windows\ViewModel.dll
+C:\Users\dzien\OneDrive\Pulpit\Zajecia\Programowanie współbieżne\TPW\tpw2\View\bin\Debug\net8.0-windows\ViewModel.pdb
+C:\Users\dzien\OneDrive\Pulpit\Zajecia\Programowanie współbieżne\TPW\tpw2\View\bin\Debug\net8.0-windows\Data.pdb
+C:\Users\dzien\OneDrive\Pulpit\Zajecia\Programowanie współbieżne\TPW\tpw2\View\bin\Debug\net8.0-windows\Logic.pdb
+C:\Users\dzien\OneDrive\Pulpit\Zajecia\Programowanie współbieżne\TPW\tpw2\View\bin\Debug\net8.0-windows\Model.pdb
+C:\Users\dzien\OneDrive\Pulpit\Zajecia\Programowanie współbieżne\TPW\tpw2\View\obj\Debug\net8.0-windows\View.csproj.AssemblyReference.cache
+C:\Users\dzien\OneDrive\Pulpit\Zajecia\Programowanie współbieżne\TPW\tpw2\View\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\dzien\OneDrive\Pulpit\Zajecia\Programowanie współbieżne\TPW\tpw2\View\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\dzien\OneDrive\Pulpit\Zajecia\Programowanie współbieżne\TPW\tpw2\View\obj\Debug\net8.0-windows\View_MarkupCompile.cache
+C:\Users\dzien\OneDrive\Pulpit\Zajecia\Programowanie współbieżne\TPW\tpw2\View\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\dzien\OneDrive\Pulpit\Zajecia\Programowanie współbieżne\TPW\tpw2\View\obj\Debug\net8.0-windows\View.g.resources
+C:\Users\dzien\OneDrive\Pulpit\Zajecia\Programowanie współbieżne\TPW\tpw2\View\obj\Debug\net8.0-windows\View.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dzien\OneDrive\Pulpit\Zajecia\Programowanie współbieżne\TPW\tpw2\View\obj\Debug\net8.0-windows\View.AssemblyInfoInputs.cache
+C:\Users\dzien\OneDrive\Pulpit\Zajecia\Programowanie współbieżne\TPW\tpw2\View\obj\Debug\net8.0-windows\View.AssemblyInfo.cs
+C:\Users\dzien\OneDrive\Pulpit\Zajecia\Programowanie współbieżne\TPW\tpw2\View\obj\Debug\net8.0-windows\View.csproj.CoreCompileInputs.cache
+C:\Users\dzien\OneDrive\Pulpit\Zajecia\Programowanie współbieżne\TPW\tpw2\View\obj\Debug\net8.0-windows\View.sourcelink.json
+C:\Users\dzien\OneDrive\Pulpit\Zajecia\Programowanie współbieżne\TPW\tpw2\View\obj\Debug\net8.0-windows\View.csproj.Up2Date
+C:\Users\dzien\OneDrive\Pulpit\Zajecia\Programowanie współbieżne\TPW\tpw2\View\obj\Debug\net8.0-windows\View.dll
+C:\Users\dzien\OneDrive\Pulpit\Zajecia\Programowanie współbieżne\TPW\tpw2\View\obj\Debug\net8.0-windows\refint\View.dll
+C:\Users\dzien\OneDrive\Pulpit\Zajecia\Programowanie współbieżne\TPW\tpw2\View\obj\Debug\net8.0-windows\View.pdb
+C:\Users\dzien\OneDrive\Pulpit\Zajecia\Programowanie współbieżne\TPW\tpw2\View\obj\Debug\net8.0-windows\View.genruntimeconfig.cache
+C:\Users\dzien\OneDrive\Pulpit\Zajecia\Programowanie współbieżne\TPW\tpw2\View\obj\Debug\net8.0-windows\ref\View.dll
+C:\Users\dzien\OneDrive\Pulpit\Zajecia\Programowanie współbieżne\TPW\tpw2\View\obj\Debug\net8.0-windows\View_MarkupCompile.lref
+C:\Users\Barto\Downloads\tpw2\View\bin\Debug\net8.0-windows\View.exe
+C:\Users\Barto\Downloads\tpw2\View\bin\Debug\net8.0-windows\View.deps.json
+C:\Users\Barto\Downloads\tpw2\View\bin\Debug\net8.0-windows\View.runtimeconfig.json
+C:\Users\Barto\Downloads\tpw2\View\bin\Debug\net8.0-windows\View.dll
+C:\Users\Barto\Downloads\tpw2\View\bin\Debug\net8.0-windows\View.pdb
+C:\Users\Barto\Downloads\tpw2\View\bin\Debug\net8.0-windows\Data.dll
+C:\Users\Barto\Downloads\tpw2\View\bin\Debug\net8.0-windows\Logic.dll
+C:\Users\Barto\Downloads\tpw2\View\bin\Debug\net8.0-windows\Model.dll
+C:\Users\Barto\Downloads\tpw2\View\bin\Debug\net8.0-windows\ViewModel.dll
+C:\Users\Barto\Downloads\tpw2\View\bin\Debug\net8.0-windows\ViewModel.pdb
+C:\Users\Barto\Downloads\tpw2\View\bin\Debug\net8.0-windows\Data.pdb
+C:\Users\Barto\Downloads\tpw2\View\bin\Debug\net8.0-windows\Logic.pdb
+C:\Users\Barto\Downloads\tpw2\View\bin\Debug\net8.0-windows\Model.pdb
+C:\Users\Barto\Downloads\tpw2\View\obj\Debug\net8.0-windows\View.csproj.AssemblyReference.cache
+C:\Users\Barto\Downloads\tpw2\View\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\Barto\Downloads\tpw2\View\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\Barto\Downloads\tpw2\View\obj\Debug\net8.0-windows\View_MarkupCompile.cache
+C:\Users\Barto\Downloads\tpw2\View\obj\Debug\net8.0-windows\View_MarkupCompile.lref
+C:\Users\Barto\Downloads\tpw2\View\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\Barto\Downloads\tpw2\View\obj\Debug\net8.0-windows\View.g.resources
+C:\Users\Barto\Downloads\tpw2\View\obj\Debug\net8.0-windows\View.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Barto\Downloads\tpw2\View\obj\Debug\net8.0-windows\View.AssemblyInfoInputs.cache
+C:\Users\Barto\Downloads\tpw2\View\obj\Debug\net8.0-windows\View.AssemblyInfo.cs
+C:\Users\Barto\Downloads\tpw2\View\obj\Debug\net8.0-windows\View.csproj.CoreCompileInputs.cache
+C:\Users\Barto\Downloads\tpw2\View\obj\Debug\net8.0-windows\View.csproj.Up2Date
+C:\Users\Barto\Downloads\tpw2\View\obj\Debug\net8.0-windows\View.dll
+C:\Users\Barto\Downloads\tpw2\View\obj\Debug\net8.0-windows\refint\View.dll
+C:\Users\Barto\Downloads\tpw2\View\obj\Debug\net8.0-windows\View.pdb
+C:\Users\Barto\Downloads\tpw2\View\obj\Debug\net8.0-windows\View.genruntimeconfig.cache
+C:\Users\Barto\Downloads\tpw2\View\obj\Debug\net8.0-windows\ref\View.dll

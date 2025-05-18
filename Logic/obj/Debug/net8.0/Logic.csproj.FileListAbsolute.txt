@@ -1,0 +1,31 @@
+C:\Users\dzien\OneDrive\Pulpit\Zajecia\Programowanie współbieżne\TPW\tpw2\Logic\bin\Debug\net8.0\Logic.deps.json
+C:\Users\dzien\OneDrive\Pulpit\Zajecia\Programowanie współbieżne\TPW\tpw2\Logic\bin\Debug\net8.0\Logic.dll
+C:\Users\dzien\OneDrive\Pulpit\Zajecia\Programowanie współbieżne\TPW\tpw2\Logic\bin\Debug\net8.0\Logic.pdb
+C:\Users\dzien\OneDrive\Pulpit\Zajecia\Programowanie współbieżne\TPW\tpw2\Logic\bin\Debug\net8.0\Data.dll
+C:\Users\dzien\OneDrive\Pulpit\Zajecia\Programowanie współbieżne\TPW\tpw2\Logic\bin\Debug\net8.0\Data.pdb
+C:\Users\dzien\OneDrive\Pulpit\Zajecia\Programowanie współbieżne\TPW\tpw2\Logic\obj\Debug\net8.0\Logic.csproj.AssemblyReference.cache
+C:\Users\dzien\OneDrive\Pulpit\Zajecia\Programowanie współbieżne\TPW\tpw2\Logic\obj\Debug\net8.0\Logic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dzien\OneDrive\Pulpit\Zajecia\Programowanie współbieżne\TPW\tpw2\Logic\obj\Debug\net8.0\Logic.AssemblyInfoInputs.cache
+C:\Users\dzien\OneDrive\Pulpit\Zajecia\Programowanie współbieżne\TPW\tpw2\Logic\obj\Debug\net8.0\Logic.AssemblyInfo.cs
+C:\Users\dzien\OneDrive\Pulpit\Zajecia\Programowanie współbieżne\TPW\tpw2\Logic\obj\Debug\net8.0\Logic.csproj.CoreCompileInputs.cache
+C:\Users\dzien\OneDrive\Pulpit\Zajecia\Programowanie współbieżne\TPW\tpw2\Logic\obj\Debug\net8.0\Logic.sourcelink.json
+C:\Users\dzien\OneDrive\Pulpit\Zajecia\Programowanie współbieżne\TPW\tpw2\Logic\obj\Debug\net8.0\Logic.csproj.Up2Date
+C:\Users\dzien\OneDrive\Pulpit\Zajecia\Programowanie współbieżne\TPW\tpw2\Logic\obj\Debug\net8.0\Logic.dll
+C:\Users\dzien\OneDrive\Pulpit\Zajecia\Programowanie współbieżne\TPW\tpw2\Logic\obj\Debug\net8.0\refint\Logic.dll
+C:\Users\dzien\OneDrive\Pulpit\Zajecia\Programowanie współbieżne\TPW\tpw2\Logic\obj\Debug\net8.0\Logic.pdb
+C:\Users\dzien\OneDrive\Pulpit\Zajecia\Programowanie współbieżne\TPW\tpw2\Logic\obj\Debug\net8.0\ref\Logic.dll
+C:\Users\Barto\Downloads\tpw2\Logic\bin\Debug\net8.0\Logic.deps.json
+C:\Users\Barto\Downloads\tpw2\Logic\bin\Debug\net8.0\Logic.dll
+C:\Users\Barto\Downloads\tpw2\Logic\bin\Debug\net8.0\Logic.pdb
+C:\Users\Barto\Downloads\tpw2\Logic\bin\Debug\net8.0\Data.dll
+C:\Users\Barto\Downloads\tpw2\Logic\bin\Debug\net8.0\Data.pdb
+C:\Users\Barto\Downloads\tpw2\Logic\obj\Debug\net8.0\Logic.csproj.AssemblyReference.cache
+C:\Users\Barto\Downloads\tpw2\Logic\obj\Debug\net8.0\Logic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Barto\Downloads\tpw2\Logic\obj\Debug\net8.0\Logic.AssemblyInfoInputs.cache
+C:\Users\Barto\Downloads\tpw2\Logic\obj\Debug\net8.0\Logic.AssemblyInfo.cs
+C:\Users\Barto\Downloads\tpw2\Logic\obj\Debug\net8.0\Logic.csproj.CoreCompileInputs.cache
+C:\Users\Barto\Downloads\tpw2\Logic\obj\Debug\net8.0\Logic.csproj.Up2Date
+C:\Users\Barto\Downloads\tpw2\Logic\obj\Debug\net8.0\Logic.dll
+C:\Users\Barto\Downloads\tpw2\Logic\obj\Debug\net8.0\refint\Logic.dll
+C:\Users\Barto\Downloads\tpw2\Logic\obj\Debug\net8.0\Logic.pdb
+C:\Users\Barto\Downloads\tpw2\Logic\obj\Debug\net8.0\ref\Logic.dll
