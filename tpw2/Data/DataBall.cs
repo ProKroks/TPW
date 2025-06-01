@@ -4,76 +4,100 @@ namespace Data
 {
     internal class DataBall : IDataBall
     {
-        public override event EventHandler<DataEventArgs>? ChangedPosition;
-
-        private Vector2 _position;
-        private Vector2 _velocity;
-
-        public override Vector2 Position
-        {
-            get
-            {
-                lock (_positionLock)
-                {
-                    return _position;
-                }
-            }
-        }
-
-        public override Vector2 Velocity
-        {
-            get
-            {
-                lock (_velocityLock)
-                {
-                    return _velocity;
-                }
-            }
-            set
-            {
-                lock (_velocityLock)
-                {
-                    _velocity = value;
-                }
-            }
-        }
-
-        public override bool HasCollided { get; set; }
-        public override bool ContinueMoving { get; set; }
-
-        private readonly object _generalLock = new();
-        private readonly object _positionLock = new();
-        private readonly object _velocityLock = new();
-
+        #region ctor
         public DataBall(int x, int y, int radius, int mass, int velocityX, int velocityY)
         {
             _position = new Vector2(x, y);
             Velocity = new Vector2(velocityX, velocityY);
-            ContinueMoving = true;
+            Radius = radius;
+            Mass = mass;
             HasCollided = false;
+            ContinueMoving = true;
 
-            
-            Task.Run(StartSimulation);
+            // uruchomienie wątku w tle
+            _thread = new Thread(MoveLoop)
+            {
+                IsBackground = true
+            };
+            _thread.Start();
         }
 
-       
-        private async void StartSimulation()
+        public void Stop()
+        {
+            ContinueMoving = false;
+            _thread?.Join(); 
+        }
+        #endregion ctor
+
+        #region IDataBall
+        public override event EventHandler<DataEventArgs>? ChangedPosition;
+
+        public override Vector2 Velocity { get; set; }
+
+        public override bool HasCollided { get; set; }
+
+        // volatile daje visibility między wątkami
+        private volatile bool _continueMoving;
+        public override bool ContinueMoving
+        {
+            get => _continueMoving;
+            set => _continueMoving = value;
+        }
+
+        public override Vector2 Position => _position;
+
+        private readonly Thread _thread;
+        #endregion IDataBall
+
+        #region private
+        private Vector2 _position;
+        public int Radius { get; private set; }
+        public int Mass { get; private set; }
+
+        private void RaisePositionChangeNotification()
+        {
+            ChangedPosition?.Invoke(this, new DataEventArgs(this));
+        }
+
+        private void MoveLoop()
         {
             while (ContinueMoving)
             {
-                MoveBall();
-                HasCollided = false;
-                await Task.Delay(10);
+                Move();
+                HasCollided = false; 
+                Thread.Sleep(10);    
             }
         }
 
-        private void MoveBall()
+        private void Move()
         {
-            lock (_generalLock)
-            {
-                _position += Velocity;
-                ChangedPosition?.Invoke(this, new DataEventArgs(this));
-            }
+            _position = new Vector2(_position.X + Velocity.X, _position.Y + Velocity.Y);
+            RaisePositionChangeNotification();
         }
+
+        public Vector2 GetPosition()
+        {
+            return _position;
+        }
+
+        public void SetPosition(float x, float y)
+        {
+            _position = new Vector2(x, y);
+            RaisePositionChangeNotification();
+        }
+
+        public void SetPosition(Vector2 newPosition)
+        {
+            _position = newPosition;
+            RaisePositionChangeNotification();
+        }
+        #endregion private
+
+        #region IDisposable
+        public void Dispose()
+        {
+            Stop();
+        }
+        #endregion IDisposable
     }
 }
