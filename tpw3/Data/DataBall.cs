@@ -17,10 +17,26 @@ namespace Data
 
         public override int ID { get; }
         public override float Time { get; set; }
-        public override Vector2 Position => _position;
-        public override Vector2 Velocity { get => _velocity; set => _velocity = value; }
+
+        public override Vector2 Position
+        {
+            get => _position;
+            set => _position = value;
+        }
+
+        public override Vector2 Velocity
+        {
+            get => _velocity;
+            set => _velocity = value;
+        }
+
         public override bool HasCollided { get; set; }
-        public override bool ContinueMoving { get => _continueMoving; set => _continueMoving = value; }
+        public override bool ContinueMoving
+        {
+            get => _continueMoving;
+            set => _continueMoving = value;
+        }
+
         public int Radius { get; private set; }
         public int Mass { get; private set; }
 
@@ -45,7 +61,7 @@ namespace Data
             while (_continueMoving)
             {
                 long currentTime = stopwatch.ElapsedMilliseconds;
-                float elapsedTime = (currentTime - lastFrameTime) / 1000.0f; // Czas w sekundach
+                float elapsedTime = (currentTime - lastFrameTime) / 1000.0f; 
 
                 if (elapsedTime >= TIME_INTERVAL_SECONDS)
                 {
@@ -63,9 +79,7 @@ namespace Data
             lock (_locker)
             {
                 HasCollided = false;
-
-                _position += _velocity * elapsedTime * 50; // Mnożnik prędkości dla widocznego ruchu
-
+                _position += _velocity * elapsedTime * 50;
                 ChangedPosition?.Invoke(this, new DataEventArgs(this));
             }
         }

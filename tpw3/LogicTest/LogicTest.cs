@@ -12,7 +12,12 @@ namespace LogicTest
         public override int ID { get; }
         public override float Time { get; set; }
 
-        public override Vector2 Position { get => _position; } 
+        public override Vector2 Position
+        {
+            get => _position;
+            set => _position = value;
+        }
+
         public override Vector2 Velocity { get => _velocity; set => _velocity = value; }
         public override bool HasCollided { get; set; }
         public override bool ContinueMoving { get; set; }

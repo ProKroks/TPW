@@ -6,7 +6,7 @@ namespace Data
     {
         public abstract int ID { get; }
         public abstract float Time { get; set; }
-        public abstract Vector2 Position { get; }
+        public abstract Vector2 Position { get; set; }
         public abstract Vector2 Velocity { get; set; }
         public abstract bool HasCollided { get; set; }
         public abstract bool ContinueMoving { get; set; }

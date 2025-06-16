@@ -84,7 +84,7 @@ namespace Logic
                         if (other != me)
                         {
                             double distance = Vector2.Distance(me.Position, other.Position);
-                            if (distance <= 2 * _ballRadius)
+                            if (distance <=  _ballRadius+0.01)
                             {
                                 HandleBallCollision(me, other);
                             }

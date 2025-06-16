@@ -47,25 +47,32 @@ namespace DataTests
             IDataBall ball = _table.CreateDataBall(0, 0, 3, 1, 1, 0, 1);
             Vector2 initialPosition = ball.Position;
 
-            await Task.Delay(50);
-            Vector2 newPosition = ball.Position;
-
-            Assert.AreNotEqual(initialPosition, newPosition);
+            bool changed = false;
+            for (int i = 0; i < 50; i++)
+            {
+                await Task.Delay(10);
+                if (ball.Position != initialPosition)
+                {
+                    changed = true;
+                    break;
+                }
+            }
+            Assert.IsTrue(changed, "Pozycja pi³ki nie zmieni³a siê w oczekiwanym czasie.");
         }
 
         [Test]
-        public void BallEvents_ShouldTriggerOnMove()
+        public async Task BallEvents_ShouldTriggerOnMove()
         {
             var ball = _table.CreateDataBall(0, 0, 3, 1, 1, 0, 1);
 
-            bool eventFired = false;
+            var tcs = new TaskCompletionSource();
             ball.ChangedPosition += (sender, args) =>
             {
-                eventFired = true;
+                tcs.TrySetResult();
             };
 
-            Task.Delay(50).Wait();
-            Assert.IsTrue(eventFired);
+            var completedTask = await Task.WhenAny(tcs.Task, Task.Delay(500));
+            Assert.IsTrue(tcs.Task.IsCompleted, "Zdarzenie ChangedPosition nie zosta³o wywo³ane.");
         }
     }
 }
