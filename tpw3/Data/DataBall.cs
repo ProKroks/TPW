@@ -1,5 +1,5 @@
 ﻿using System.Numerics;
-using System.Threading.Tasks;
+using System.Timers;
 
 namespace Data
 {
@@ -12,7 +12,9 @@ namespace Data
         private readonly object _locker = new object();
         private bool _continueMoving;
         private const float TIME_INTERVAL_SECONDS = 1f / 60f;
-        private const int MOVEMENT_SPEED_MULTIPLIER = 65; 
+        private const int MOVEMENT_SPEED_MULTIPLIER = 65;
+
+        private System.Timers.Timer _movementTimer;
 
         public override int ID { get; }
         public override float Time { get; set; }
@@ -48,16 +50,24 @@ namespace Data
             ID = id;
             HasCollided = false;
             _continueMoving = true;
-            Task.Run(StartSimulation);
+
+            // uruchomienie timera
+            _movementTimer = new System.Timers.Timer(TIME_INTERVAL_SECONDS * 1000); 
+            _movementTimer.Elapsed += OnTimedEvent; // Ustawienie metody do wywołania
+            _movementTimer.AutoReset = true; 
+            _movementTimer.Enabled = true; 
         }
 
-        private async void StartSimulation()
+        private void OnTimedEvent(Object source, ElapsedEventArgs e)
         {
-            while (_continueMoving)
+            if (_continueMoving)
             {
                 Time = TIME_INTERVAL_SECONDS;
                 MoveBall(TIME_INTERVAL_SECONDS);
-                await Task.Delay((int)(TIME_INTERVAL_SECONDS * 1000));
+            }
+            else
+            {
+                _movementTimer.Stop();
             }
         }
 
@@ -74,6 +84,10 @@ namespace Data
         public void Dispose()
         {
             _continueMoving = false;
+            if (_movementTimer != null)
+            {
+                _movementTimer.Dispose();
+            }
         }
     }
 }

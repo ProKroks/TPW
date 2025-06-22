@@ -1,20 +1,15 @@
-﻿{"ID":0,"Position":{"X":80.5,"Y":20.000004},"Velocity":{"X":-3.0,"Y":2.0},"Time":"2025-06-22T16:30:01.0112102Z","Event":"WallCollision"}
-{"ID":0,"Position":{"X":18.75,"Y":61.166683},"Velocity":{"X":3.0,"Y":2.0},"Time":"2025-06-22T16:30:01.3286813Z","Event":"WallCollision"}
-{"ID":1,"Position":{"X":355.08423,"Y":19.833153},"Velocity":{"X":1.0,"Y":2.0},"Time":"2025-06-22T16:30:02.5278351Z","Event":"WallCollision"}
-{"ID":0,"Position":{"X":529.0,"Y":401.3329},"Velocity":{"X":3.0,"Y":-2.0},"Time":"2025-06-22T16:30:03.9329494Z","Event":"WallCollision"}
-{"ID":0,"Position":{"X":561.5,"Y":379.66632},"Velocity":{"X":-3.0,"Y":-2.0},"Time":"2025-06-22T16:30:04.097788Z","Event":"WallCollision"}
-{"ID":1,"Position":{"X":545.7517,"Y":401.16605},"Velocity":{"X":1.0,"Y":-2.0},"Time":"2025-06-22T16:30:05.4253316Z","Event":"WallCollision"}
-{"ID":1,"Position":{"X":560.9181,"Y":370.83286},"Velocity":{"X":-1.0,"Y":-2.0},"Time":"2025-06-22T16:30:05.6578135Z","Event":"WallCollision"}
-{"ID":0,"Position":{"X":22.0,"Y":19.999992},"Velocity":{"X":-3.0,"Y":2.0},"Time":"2025-06-22T16:30:06.8281952Z","Event":"WallCollision"}
-{"ID":0,"Position":{"X":18.75,"Y":22.166658},"Velocity":{"X":3.0,"Y":2.0},"Time":"2025-06-22T16:30:06.8445932Z","Event":"WallCollision"}
-{"ID":1,"Position":{"X":385.41782,"Y":19.833153},"Velocity":{"X":-1.0,"Y":2.0},"Time":"2025-06-22T16:30:08.3301551Z","Event":"WallCollision"}
-{"ID":0,"Position":{"X":561.5,"Y":383.99963},"Velocity":{"X":-3.0,"Y":2.0},"Time":"2025-06-22T16:30:09.6014251Z","Event":"WallCollision"}
-{"ID":0,"Position":{"X":535.5,"Y":401.3329},"Velocity":{"X":-3.0,"Y":-2.0},"Time":"2025-06-22T16:30:09.7335437Z","Event":"WallCollision"}
-{"ID":1,"Position":{"X":194.75023,"Y":401.16605},"Velocity":{"X":-1.0,"Y":-2.0},"Time":"2025-06-22T16:30:11.2362127Z","Event":"WallCollision"}
-{"ID":0,"Position":{"X":18.75,"Y":56.833336},"Velocity":{"X":3.0,"Y":-2.0},"Time":"2025-06-22T16:30:12.3579097Z","Event":"WallCollision"}
-{"ID":0,"Position":{"X":74.0,"Y":19.999992},"Velocity":{"X":3.0,"Y":2.0},"Time":"2025-06-22T16:30:12.6379511Z","Event":"WallCollision"}
-{"ID":1,"Position":{"X":19.25042,"Y":50.166492},"Velocity":{"X":1.0,"Y":-2.0},"Time":"2025-06-22T16:30:13.9045761Z","Event":"WallCollision"}
-{"ID":1,"Position":{"X":34.41709,"Y":19.833153},"Velocity":{"X":1.0,"Y":2.0},"Time":"2025-06-22T16:30:14.138327Z","Event":"WallCollision"}
-{"ID":0,"Position":{"X":561.5,"Y":344.99982},"Velocity":{"X":-3.0,"Y":2.0},"Time":"2025-06-22T16:30:15.107065Z","Event":"WallCollision"}
-{"ID":0,"Position":{"X":477.0,"Y":401.3329},"Velocity":{"X":-3.0,"Y":-2.0},"Time":"2025-06-22T16:30:15.5371653Z","Event":"WallCollision"}
-{"ID":1,"Position":{"X":225.08342,"Y":401.16605},"Velocity":{"X":1.0,"Y":-2.0},"Time":"2025-06-22T16:30:17.0353024Z","Event":"WallCollision"}
+﻿{"Ball_ID":0,"Position":{"X":247.0,"Y":55.0},"Velocity":{"X":2.0,"Y":-2.0},"Time":"2025-06-22T23:40:54.3078945+02:00","Event":"Ball Created"}
+{"Ball_ID":1,"Position":{"X":550.0,"Y":190.0},"Velocity":{"X":3.0,"Y":2.0},"Time":"2025-06-22T23:40:54.3086304+02:00","Event":"Ball Created"}
+{"Ball_ID":2,"Position":{"X":94.0,"Y":75.0},"Velocity":{"X":2.0,"Y":-2.0},"Time":"2025-06-22T23:40:54.3086514+02:00","Event":"Ball Created"}
+{"Ball_ID":1,"Position":{"X":563.0,"Y":198.66669},"Velocity":{"X":-3.0,"Y":2.0},"Time":"2025-06-22T23:40:54.37604+02:00","Event":"Wall Collision"}
+{"Ball_ID":0,"Position":{"X":283.83322,"Y":18.166658},"Velocity":{"X":2.0,"Y":2.0},"Time":"2025-06-22T23:40:54.5909861+02:00","Event":"Wall Collision"}
+{"Ball_ID":2,"Position":{"X":150.33334,"Y":18.666666},"Velocity":{"X":2.0,"Y":2.0},"Time":"2025-06-22T23:40:54.7510816+02:00","Event":"Wall Collision"}
+{"Ball_ID":1,"Position":{"X":260.75,"Y":400.16614},"Velocity":{"X":-3.0,"Y":-2.0},"Time":"2025-06-22T23:40:55.9578492+02:00","Event":"Wall Collision"}
+{"Ball_ID":0,"Position":{"X":561.16595,"Y":295.50003},"Velocity":{"X":-2.0,"Y":2.0},"Time":"2025-06-22T23:40:56.7681127+02:00","Event":"Wall Collision"}
+{"Ball_ID":1,"Position":{"X":17.0,"Y":237.66676},"Velocity":{"X":3.0,"Y":-2.0},"Time":"2025-06-22T23:40:57.2326932+02:00","Event":"Wall Collision"}
+{"Ball_ID":2,"Position":{"X":481.83252,"Y":350.16647},"Velocity":{"X":-2.0,"Y":2.0},"Time":"2025-06-22T23:40:57.3536647+02:00","Event":"Collision With Ball 0"}
+{"Ball_ID":0,"Position":{"X":487.49896,"Y":369.16635},"Velocity":{"X":2.0,"Y":2.0},"Time":"2025-06-22T23:40:57.3537362+02:00","Event":"Collision With Ball 2"}
+{"Ball_ID":0,"Position":{"X":519.9989,"Y":401.6662},"Velocity":{"X":2.0,"Y":-2.0},"Time":"2025-06-22T23:40:57.5999751+02:00","Event":"Wall Collision"}
+{"Ball_ID":2,"Position":{"X":431.99942,"Y":399.99957},"Velocity":{"X":-2.0,"Y":-2.0},"Time":"2025-06-22T23:40:57.7436979+02:00","Event":"Wall Collision"}
+{"Ball_ID":0,"Position":{"X":561.16595,"Y":360.49973},"Velocity":{"X":-2.0,"Y":-2.0},"Time":"2025-06-22T23:40:57.9231567+02:00","Event":"Wall Collision"}
+{"Ball_ID":1,"Position":{"X":345.25,"Y":18.833239},"Velocity":{"X":3.0,"Y":2.0},"Time":"2025-06-22T23:40:58.9496645+02:00","Event":"Wall Collision"}

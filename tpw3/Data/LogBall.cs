@@ -4,7 +4,7 @@ namespace Data
 {
     public record LogBall
     {
-        public int ID;
+        public int Ball_ID;
         public Vector2 Position;
         public Vector2 Velocity;
         public DateTime Time;
@@ -15,7 +15,7 @@ namespace Data
             Position = p;
             Velocity = v;
             Time = t;
-            ID = id;
+            Ball_ID = id;
             Event = ev;
         }
     }

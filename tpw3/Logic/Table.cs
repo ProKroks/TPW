@@ -51,6 +51,8 @@ namespace Logic
                 dataBall.ChangedPosition += CheckCollisionWithWall;
                 dataBall.ChangedPosition += CheckBallsCollision;
                 Balls.Add(ball);
+
+                _logger.AddBall(new LogBall(dataBall.Position, dataBall.Velocity, DateTime.UtcNow, dataBall.ID, "Ball Created"));
             }
         }
 
@@ -78,7 +80,7 @@ namespace Logic
             if (collision)
             {
                 ball.HasCollided = true;
-                _logger.AddBall(new LogBall(ball.Position, ball.Velocity, DateTime.UtcNow, ball.ID, "WallCollision"));
+                _logger.AddBall(new LogBall(ball.Position, ball.Velocity, DateTime.UtcNow, ball.ID, "Wall Collision"));
             }
         }
 
@@ -119,8 +121,8 @@ namespace Logic
             ball.HasCollided = true;
             other.HasCollided = true;
 
-            _logger.AddBall(new LogBall(ball.Position, ball.Velocity, DateTime.UtcNow, ball.ID, $"CollisionWithBall_{other.ID}"));
-            _logger.AddBall(new LogBall(other.Position, other.Velocity, DateTime.UtcNow, other.ID, $"CollisionWithBall_{ball.ID}"));
+            _logger.AddBall(new LogBall(ball.Position, ball.Velocity, DateTime.UtcNow, ball.ID, $"Collision With Ball {other.ID}"));
+            _logger.AddBall(new LogBall(other.Position, other.Velocity, DateTime.UtcNow, other.ID, $"Collision With Ball {ball.ID}"));
         }
 
         public override void ClearTable()

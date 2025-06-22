@@ -48,6 +48,11 @@ namespace Data
         {
             Task.Run(async () =>
             {
+                JsonSerializerSettings settings = new JsonSerializerSettings
+                {
+                    DateTimeZoneHandling = DateTimeZoneHandling.Local
+                };
+
                 using (StreamWriter streamWriter = new StreamWriter(_pathToFile, false, Encoding.UTF8))
                 {
                     while (!_queue.IsCompleted)
@@ -58,8 +63,8 @@ namespace Data
                             _queueOverflow = false;
                         }
 
-                        LogBall ball = _queue.Take(); // Czeka na element
-                        string jsonString = JsonConvert.SerializeObject(ball);
+                        LogBall ball = _queue.Take();
+                        string jsonString = JsonConvert.SerializeObject(ball, settings);
                         await streamWriter.WriteLineAsync(jsonString);
                         await streamWriter.FlushAsync();
                     }
