@@ -16,6 +16,8 @@ namespace Logic
         private readonly object _locker = new object();
         private readonly object _collisionLock = new object();
 
+        private readonly DataLogger _logger = DataLogger.GetInstance();
+
         public Table(IDataTable api)
         {
             _length = api.Length;
@@ -60,15 +62,23 @@ namespace Logic
             var predictedPositionX = ball.Position.X + ball.Velocity.X * ball.Time;
             var predictedPositionY = ball.Position.Y + ball.Velocity.Y * ball.Time;
 
+            bool collision = false;
+
             if (predictedPositionX > _dataAPI.Length - _ballRadius || predictedPositionX < _ballRadius)
             {
                 ball.Velocity = new Vector2(-ball.Velocity.X, ball.Velocity.Y);
-                ball.HasCollided = true;
+                collision = true;
             }
             if (predictedPositionY > _dataAPI.Width - _ballRadius || predictedPositionY < _ballRadius)
             {
                 ball.Velocity = new Vector2(ball.Velocity.X, -ball.Velocity.Y);
+                collision = true;
+            }
+
+            if (collision)
+            {
                 ball.HasCollided = true;
+                _logger.AddBall(new LogBall(ball.Position, ball.Velocity, DateTime.UtcNow, ball.ID, "WallCollision"));
             }
         }
 
@@ -84,7 +94,7 @@ namespace Logic
                         if (other != me)
                         {
                             double distance = Vector2.Distance(me.Position, other.Position);
-                            if (distance <=  _ballRadius+0.01)
+                            if (distance <= _ballRadius + 0.01)
                             {
                                 HandleBallCollision(me, other);
                             }
@@ -108,6 +118,9 @@ namespace Logic
 
             ball.HasCollided = true;
             other.HasCollided = true;
+
+            _logger.AddBall(new LogBall(ball.Position, ball.Velocity, DateTime.UtcNow, ball.ID, $"CollisionWithBall_{other.ID}"));
+            _logger.AddBall(new LogBall(other.Position, other.Velocity, DateTime.UtcNow, other.ID, $"CollisionWithBall_{ball.ID}"));
         }
 
         public override void ClearTable()

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Data
 {
-    internal class DataLogger
+    public class DataLogger
     {
         private readonly BlockingCollection<LogBall> _queue;
         private readonly string _pathToFile;

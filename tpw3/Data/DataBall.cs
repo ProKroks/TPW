@@ -1,12 +1,10 @@
-﻿using System.Diagnostics;
-using System.Numerics;
+﻿using System.Numerics;
 using System.Threading.Tasks;
 
 namespace Data
 {
     internal class DataBall : IDataBall, IDisposable
     {
-        private readonly DataLogger _logger = DataLogger.GetInstance();
         public override event EventHandler<DataEventArgs>? ChangedPosition;
 
         private Vector2 _position;
@@ -14,6 +12,7 @@ namespace Data
         private readonly object _locker = new object();
         private bool _continueMoving;
         private const float TIME_INTERVAL_SECONDS = 1f / 60f;
+        private const int MOVEMENT_SPEED_MULTIPLIER = 65; 
 
         public override int ID { get; }
         public override float Time { get; set; }
@@ -54,23 +53,11 @@ namespace Data
 
         private async void StartSimulation()
         {
-            Stopwatch stopwatch = new Stopwatch();
-            stopwatch.Start();
-            long lastFrameTime = stopwatch.ElapsedMilliseconds;
-
             while (_continueMoving)
             {
-                long currentTime = stopwatch.ElapsedMilliseconds;
-                float elapsedTime = (currentTime - lastFrameTime) / 1000.0f; 
-
-                if (elapsedTime >= TIME_INTERVAL_SECONDS)
-                {
-                    Time = elapsedTime;
-                    MoveBall(elapsedTime);
-                    _logger.AddBall(new LogBall(Position, Velocity, DateTime.UtcNow, ID));
-                    lastFrameTime = currentTime;
-                }
-                await Task.Delay(1);
+                Time = TIME_INTERVAL_SECONDS;
+                MoveBall(TIME_INTERVAL_SECONDS);
+                await Task.Delay((int)(TIME_INTERVAL_SECONDS * 1000));
             }
         }
 
@@ -79,7 +66,7 @@ namespace Data
             lock (_locker)
             {
                 HasCollided = false;
-                _position += _velocity * elapsedTime * 50;
+                _position += _velocity * elapsedTime * MOVEMENT_SPEED_MULTIPLIER;
                 ChangedPosition?.Invoke(this, new DataEventArgs(this));
             }
         }
